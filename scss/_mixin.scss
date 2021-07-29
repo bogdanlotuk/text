@@ -1,0 +1,30 @@
+
+$screens: (1600, 1400, 1275, 1160, 992, 770, 550, 450);
+@mixin media($property, $values) {
+
+  @for $i from 1 through length($values) {
+
+    @if nth($values, $i) != '' {
+
+      @media screen and (max-width: nth($screens, $i) + 'px') {
+        #{$property}: unquote(#{nth($values, $i)});
+
+      }
+    }
+  }
+}
+
+
+
+
+$screenH: (770);
+@mixin mediaH($propertyH, $valuesH) {
+  @for $iH from 1 through length($valuesH) {
+    @if nth($valuesH, $iH) != '' {
+      @media screen and (min-width: nth($screenH, $iH) + 'px') {
+        #{$propertyH}: unquote(#{nth($valuesH, $iH)});
+
+      }
+    }
+  }
+}

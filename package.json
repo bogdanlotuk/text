@@ -1,0 +1,25 @@
+{
+  "name": "detalify",
+  "version": "1.0.0",
+  "main": "index_new.php",
+  "dependencies": {
+    "npm": "^5.7.1",
+    "readable-stream": "^3.4.0"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

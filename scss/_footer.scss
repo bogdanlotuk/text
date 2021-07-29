@@ -1,0 +1,192 @@
+footer {
+	z-index: 3;
+	position: relative;
+	padding: 8.4rem 0 0;
+	background: $footerBg;
+	
+	
+	.footer_title {
+		font-size: 2.4rem;
+		line-height: 1.2;
+		font-weight: 800;
+		color: $main;
+		padding: 0;
+		margin: 0 0 2.6rem;
+		text-transform: capitalize;
+	}
+	
+	address {
+		margin-bottom: 4.5rem;
+		
+		.location_link {
+			max-width: 19.9rem;
+		}
+		
+		p, a {
+			position: relative;
+			padding-left: 2.5rem;
+			margin: .5rem 0 1.2rem;
+			
+			svg {
+				position: absolute;
+				color: $main;
+				left: 0;
+				top: 0.3rem;
+				
+				&.mail {
+					width: 1.4rem;
+					height: 1.4rem;
+					top: .2rem;
+				}
+			}
+		}
+	}
+	
+	.button {
+		display: block;
+		width: 100%;
+	}
+	
+	a {
+		display: block;
+		font: 400 1.6rem/1.4 $font;
+		margin: 0.5rem 0;
+		color: $white;
+		transition: 0.3s;
+		
+		b {
+			font-weight: 800;
+		}
+		
+	}
+	
+	p {
+		display: block;
+		color: $white;
+		font: 400 1.6rem/1.4 $font;
+		margin: 0.5rem 0;
+		
+		b {
+			font-weight: 800;
+		}
+	}
+	
+	.subscribe_form {
+		position: relative;
+		margin: 3.3rem 0 0;
+		
+		.input {
+			height: 4rem;
+			border-radius: 0.4rem;
+			border: 0.1rem solid $white;
+			background-color: $cb;
+			font-size: 1.4rem;
+			color: $white;
+			transition: border 0.2s ease-in;
+			margin: 0 0 3rem;
+		}
+		
+		.input::placeholder {
+			font-size: 1.4rem;
+			color: rgba($white, .7);
+			
+		}
+		
+		.input:focus, .input:active {
+			border: 0.1rem solid #298249;
+		}
+	}
+	
+	.footer_blog {
+		.name {
+			font-size: 1.6rem;
+			line-height: 1.69;
+			font-weight: 700;
+			color: $white;
+			text-transform: uppercase;
+			margin: -0.4rem 0 1.9rem;
+			transition: .3s linear;
+		}
+		
+		p {
+			font-size: 1.5rem;
+		}
+		
+		.desc {
+			margin-bottom: 2.1rem;
+		}
+	}
+	
+	ul {
+		margin-bottom: 4.4rem;
+		
+		li {
+			a {
+				position: relative;
+				padding-left: 1.5rem;
+				margin: .7rem 0;
+				
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					top: .7rem;
+					left: 0;
+					width: 0.7rem;
+					height: 0.7rem;
+					border-top: 0.1rem solid $main;
+					border-right: 0.1rem solid $main;
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+	
+	.mailing_heading {
+		font-size: 1.5rem;
+	}
+	
+	.footer_logo {
+		font-size: 0;
+		
+		img {
+			display: inline-block;
+			vertical-align: middle;
+			width: 4.3rem;
+			margin: 0 1.6rem 0 0;
+			object-fit: contain;
+			font-family: 'object-fit: contain;';
+		}
+		
+		p {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 2.4rem;
+			line-height: 1.12;
+			font-weight: 700;
+			color: $main;
+			width: calc(100% - 5.9rem);
+		}
+	}
+}
+
+
+.footer_bottom {
+	padding: 2rem 0 1.8rem;
+	position: relative;
+	z-index: 3;
+	border-top: .1rem solid #464646;
+	margin: 6.5rem 0 0;
+	
+	p, a {
+		font: 500 1.5rem/1.4 $font;
+		color: $white;
+		display: inline-block;
+		margin: 0;
+		
+		a {
+			display: inline-block;
+			font: 500 1.5rem/1.4 $font;
+		}
+	}
+}

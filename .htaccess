@@ -1,0 +1,20 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+
+ErrorDocument 404 /404
+RewriteRule ^about$ about.php [L,QSA]
+RewriteRule ^products$ product.php [L,QSA]
+RewriteRule ^gallery$ gallery.php [L,QSA]
+RewriteRule ^contact$ contact.php [L,QSA]
+
+#RewriteRule ^search$ search.php [L,QSA]
+
+RewriteRule ^blog$ blog.php [L,QSA]
+RewriteRule ^blog-category(.*)$ blog_cat.php?url=$1 [L,QSA]
+RewriteRule ^blog-tag(.*)$ blog_search.php?tag=$1 [L,QSA]
+RewriteRule ^blog-search$ blog_search.php [L,QSA]
+RewriteRule ^blog/(.*)$ blog_post.php?url=$1 [L,QSA]
+
+RewriteRule ^imagephp/(.*)$ image.php?$1 [L,QSA]
+

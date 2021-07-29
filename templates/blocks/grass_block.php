@@ -1,0 +1,1 @@
+<div class="grass_bg" style="background-image: url('/img/grass_bg.jpg')"></div>

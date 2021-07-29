@@ -1,0 +1,134 @@
+.faqs {
+
+  .title, h1, h2 {
+    display: block;
+    text-align: center;
+  }
+  .sub_title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #5f6062;
+    position: relative;
+    margin: 4rem 0;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 2rem;
+      height: 0.2rem;
+      background: $main;
+      display: block;
+      left: 0;
+      bottom: -1.5rem;
+    }
+  }
+  h3 {font-size: 3rem; color: $main;}
+  .faqs_item {
+    position: relative;
+    //margin: 2rem auto;
+    border-top: 0.1rem solid $grey;
+  }
+
+  .faqs_item:last-child {
+    border-bottom: 0.1rem solid $grey;
+  }
+
+  .faqs_item:first-child .faqs_content {
+    display: block;
+  }
+
+  .faqs_item.active .faqs_question {
+    color: #5f6062;
+    font-weight: 800;
+  }
+
+  .faqs_item.active .faqs_question:before {
+    transform: rotate(135deg);
+  }
+
+  .faqs_question {
+    position: relative;
+    padding: 1rem 3.5rem 1rem 2rem;
+    font: 800 2rem $font;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #5f6062;
+  }
+
+  .faqs_question:hover {
+    color: $main;
+  }
+
+  .faqs_question:before {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: .64em;
+    color: $main;
+    border: 0 solid;
+    border-width: .3rem .3rem 0 0;
+    transform: rotate(45deg);
+    transition: all 0.3s;
+  }
+
+  .faqs_question .icon_arrow {
+    position: absolute;
+    top: .2rem;
+    left: 0;
+    font-size: 2.6rem;
+    line-height: 0;
+    color: $main;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .faqs_content {
+    display: none;
+    padding: 1rem 3.5rem 1rem 2rem;
+    font-size: 1.6rem;
+    color: #000;
+    overflow: hidden;
+  }
+
+  .faqs_content p:first-child img {
+    margin-top: 2rem;
+  }
+
+  .faqs_content ul li:before {
+    top: .36em;
+    height: 1.2rem;
+    color: $main;
+  }
+
+  //.content ol > li {
+  //  padding-left: 0;
+  //  margin-bottom: 0;
+  //  overflow: visible;
+  //}
+  //
+  //.content ol > li:before {
+  //  margin-left: 0;
+  //  counter-increment: li;
+  //  content: counters(li, ".") ". ";
+  //  color: $white;
+  //  top: 3.1rem;
+  //  font-weight: 600;
+  //  left: 1.4rem;
+  //  position: absolute;
+  //  z-index: 999;
+  //
+  //}
+  //
+  //.content ol > li.active:before {
+  //  color: $cb;
+  //}
+}

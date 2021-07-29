@@ -1,0 +1,39 @@
+.contact_page {
+	
+	address {
+		margin: 8.1rem 0 3rem;
+		text-align: center;
+		
+		a {
+			display: inline-block;
+			position: relative;
+			padding-left: 2.5rem;
+			font-style: initial;
+			font-size: 2rem;
+			line-height: 1.2;
+			font-weight: 400;
+			color: $cb;
+			margin: 0 5rem 0 0;
+		
+			
+			&:last-child {
+				margin: 0;
+			}
+			
+			svg {
+				position: absolute;
+				color: $main;
+				left: 0;
+				top: 0.3rem;
+				
+				&.mail {
+					width: 1.4rem;
+					height: 1.4rem;
+					top: .2rem;
+				}
+			}
+		}
+	}
+	
+	
+}

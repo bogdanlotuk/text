@@ -1,0 +1,105 @@
+$font:            'Poppins', sans-serif;
+
+$cb:              #000000;
+$dark:            #ff3300;
+$main:            #298249;
+$main_dark:       #242424;
+$yellow:          #f3b01c;
+$white:           #ffffff;
+$grey:            #f5f5f5;
+$greyDark:        #626262;
+$greyLight:       #f2f2f2;
+$greyBg:          rgb(245, 245, 245);
+$c1:              #00aeab;
+$c2:              #4A6572;
+$green:           #006b25;
+$greenLight:      #eaf3e9;
+$p:               $cb;
+$red:             #e31e26;
+$violet:          #6e4cad;
+$blue:            #1c207e;
+$blueDark:        #021f56;
+
+$arrowColor:      #ffffff;
+$arrowColorH:     #ffbf66;
+$dotBorderColor:  #ffffff;
+$dotBackground:   #ffffff;
+
+$title:           $cb;
+
+$mainText:        $cb;
+$none:            inherit;
+
+$inputColor:      $cb;
+$inputBack:       $white;
+$inputBorder:     #a9b0b6;
+$inputRad:        0;
+$placeholderColor: #6b6b6b;
+
+
+$btnRad:          .4rem;
+$btn_1_color:     $white;
+$btn_1_back:      $main;
+$btn_1_b_color:   $main;
+$btn_1_b_rad:     0;
+
+$btn_1_color_h:   $main;
+$btn_1_back_h:    $white;
+$btn_1_b_color_h: $main;
+$btn_1_b_rad_h:   0;
+
+$btn_2_color:     $main;
+$btn_2_back:      $white;
+$btn_2_b_color:   $white;
+$btn_2_b_rad:     0;
+
+$btn_2_color_h:   $white;
+$btn_2_back_h:    $main;
+$btn_2_b_color_h: $main;
+$btn_2_b_rad_h:   0;
+
+$btn_3_color:     $dark;
+$btn_3_back:      $white;
+$btn_3_b_color:   $white;
+$btn_3_b_rad:     0;
+
+$btn_3_color_h:   $white;
+$btn_3_back_h:    $dark;
+$btn_3_b_color_h: $white;
+$btn_3_b_rad_h:   0;
+
+$btn_4_color:     $white;
+$btn_4_back:      $main_dark;
+$btn_4_b_color:   $main_dark;
+$btn_4_b_rad:     0;
+
+$btn_4_color_h:   $main_dark;
+$btn_4_back_h:    $white;
+$btn_4_b_color_h: $white;
+$btn_4_b_rad_h:   0;
+
+$toastError:      rgba(237, 28, 36, .8);
+$toastSuccess:    rgba($main, .8);
+
+$footerBg:        $cb;
+
+$modalWidthXL:    65vw;
+$modalWidthL:     85rem;
+$modalWidth:      60rem;
+$modalWidthS:     40rem;
+$modalWidthXS:    30rem;
+$modalBg:         #ffffff;
+$modalBorder:     $dark;
+
+$wrapWidth:       119.5rem;
+
+$nav_btn_line:    $main;
+$nav_btn_color:   $main;
+
+$padding_body:    14.4rem;
+
+$gutter:          1.5rem;
+$gutter-:         -1.5rem;
+$gutter2:         $gutter + $gutter;
+$zero:            0;
+

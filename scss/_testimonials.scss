@@ -1,0 +1,65 @@
+.testimonials_page {
+
+  .title, h1, h2 {
+    color: $title;
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  .testimon_item {
+    margin: 2rem auto;
+
+    .info {
+      width: 20%;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: right;
+      padding-right: 2rem;
+      border-right:0.1rem solid $grey;
+      .name {
+        color: $main;
+        font-size: 3.3rem;
+        font-weight: 900;
+      }
+      .date {
+        color: $cb;
+        font-weight: 900;
+        font-size: 1.7rem;
+      }
+      .year {
+        color: $main;
+        font-size: 2.7rem;
+        font-weight: 900;
+      }
+    }
+    .desc {
+      margin-left: -0.3rem;
+      width: 79%;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      padding-left: 2rem;
+      border-left:0.1rem solid $grey;
+      svg {
+        color: #e4e4e4;
+        width: 3.5rem;
+        height: 3.5rem;
+        display: inline-block;
+        vertical-align: top;
+      }
+      p {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1%;
+        width: 90%;
+      }
+    }
+  }
+  .button {
+    max-width: 35rem;
+    margin: 2rem auto 0;
+  }
+
+}
